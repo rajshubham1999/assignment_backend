@@ -1,0 +1,144 @@
+/* styles.css */
+.container {
+    display: flex;
+    flex-direction: column; /* Add flex-direction column */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9d2;
+    margin-top: 20px; /* Add margin-top to create space between welcome text and form */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-picture {
+    text-align: center;
+  }
+  
+  .profile-image-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .profile-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .add-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .add-icon svg {
+    font-size: 40px;
+    color: #fff;
+  }
+ 
+  
+  .terms {
+    display: flex;
+    align-items: center;
+  }
+ 
+  
+  .terms input[type="checkbox"] {
+    margin-right: 5px; /* Adjust the margin to position the checkbox */
+    width:15px;
+  }
+  
+  
+  
+  
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  h2 {
+    font-size: 22px; /* Adjust font size for the welcome text */
+    margin-bottom: 1px; /* Add margin bottom to create space between welcome text and form */
+  }
+  .already-account {
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .already-account:hover {
+    color:blue; /* Change background color on hover */
+  }
+  /* styles.css */
+  
+  .success-message {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 10px;
+    background-color: #4caf50; /* Green background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+  }
+  
+  .success-message .tick {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  

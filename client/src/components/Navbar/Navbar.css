@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #15171C; /* Background color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 0; /* Remove margin-bottom */
+    color: white;
+  }
+
+  
+  .logo img {
+    margin-top: 2px;
+    height: 40px; /* Adjust the height of the logo as needed */
+    width: 100px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin-left: 5px;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    position: relative; /* Add this line */
+  }
+  
+  .nav-links a:hover::after {
+    content: ''; /* Add this line */
+    position: absolute; /* Add this line */
+    left: 0; /* Add this line */
+    bottom: -2px; /* Adjust the distance of the line from the text */
+    width: 100%; /* Add this line */
+    height: 3px; /* Adjust the thickness of the line */
+    background-color: grey; /* Color of the line */
+  }
+  
+  .profile img {
+    height: 30px; /* Adjust the height of the profile icon as needed */
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  
